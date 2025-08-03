@@ -6,7 +6,7 @@ TOPLEVEL_LANG = verilog
 VERILOG_SOURCES += ../rfdc_driver.sv
 TOPLEVEL = rfdc_driver
 
-MODULE = test
+MODULE = test_rfdc_driver
 
 EXTRA_ARGS += --coverage
 EXTRA_ARGS += --trace --trace-fst --trace-structs
